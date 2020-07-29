@@ -16,3 +16,33 @@
 .log-btn:first-child{
     margin-left: 20%;
 }
+
+.sign-in{
+    color: white;
+    background: rgba(165,42,42,0.75);
+    margin: 150% 70%;
+    padding: 20% 10%;
+    align-items: center;
+    border-radius: 6px;
+    z-index: 4;
+    box-shadow:1px 1px 4px rgba(0, 0,0, 0.1) ;}
+    posion
+    label {
+        /* Uniform size & alignment */
+        display: inline-block;
+        width: 150px;
+    }
+
+    /* .sign-in form ground: transparent;
+    } */
+    #submitbtn{
+        background: transparent;
+        padding: 4px 20px;
+        color: white;
+        margin: 10px;
+        
+    }
+    .sign-up:click{
+
+    }
+    

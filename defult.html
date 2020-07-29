@@ -13,8 +13,8 @@
         <header class="header">
            
             <button class="log-btn">سجل دخول</button>
-            <button class="log-btn"> اشترك</button>
-            <a href="/" class="logo"><img src="./imges/sanaa1.png" alt="" id="sanaa"></a>
+            <button class="log-btn sign-up" > اشترك</button>
+            <a href="/" class="logo"><img src="./imges/sanaa4.png" alt="" id="sanaa"></a>
            <nav class="mynav">
              <!-- this check box is to anble choose menue -->
             <input class="menu-btn" type="checkbox" id="menu-btn" />
@@ -23,7 +23,7 @@
                 <li><a href="#dont">تاريخ</a></li>
                 <li><a href="#forget">تراث</a></li>
                 <li><a href="#dont">اخبار</a></li>
-                <li><a href="#forget">حارات صنعاء</a></li>
+                <li><a href="#forget">من نحن</a></li>
            </nav>
         </header>
         <aside class="aside">
@@ -34,8 +34,15 @@ aside
             
         </main>
         <div class="sign-in">
-            <form action="" method="get">
-
+            <form action="" method="post">
+                <label for="name">الاسم</label>
+                <input type="text" id="name" name="user_name">
+               
+                <label for="mail">الايميل:</label>
+                <input type="email" id="mail" name="user_email">
+                <label for="pass">كلمة السر</label>
+                <input type="password" id="pass" name="user_password">
+                <button type="submit" id="submitbtn">انضمام</button>
             </form>
         </div>
         <footer class="footer">
