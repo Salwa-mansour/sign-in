@@ -20,7 +20,8 @@ a{
 .header{
     background-color: #AC271D;
     box-shadow:1px 1px 4px rgba(0, 0,0, 0.1) ;
-    position: fixed;   /*to anchor menue at the top*/
+     /*to anchor menue at the top*/
+    /* position: fixed;   */
     width: 100%;
     z-index: 3;
     color: wheat;
@@ -35,7 +36,7 @@ header nav ul {
 }
 
 .header nav ul a{
-   display: block; /*get the apelity to have margins nd pading and can click any where in the row*/
+   display:block; /*get the apelity to have margins nd pading and can click any where in the row*/
    padding:20px ;
    outline: 1px solid  #811D16;
    border-right: 1px solid #811D16;
@@ -46,10 +47,13 @@ header nav ul {
 .header nav ul a:hover{
     background-color:#811D16 ;
 }
-
+.log-btn a{
+    text-decoration: none;
+    color: wheat;
+}
 .header .logo {
-    float: right;
-    display: block;
+    /* float: right; */
+    display: inline-block;
     font-size: 2em;
     padding: 10px 20px;
 }

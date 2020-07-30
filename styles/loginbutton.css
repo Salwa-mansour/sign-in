@@ -20,18 +20,31 @@
 .sign-in{
     color: white;
     background: rgba(165,42,42,0.75);
-    margin: 150% 70%;
-    padding: 20% 10%;
+   width: 300px;
     align-items: center;
     border-radius: 6px;
-    z-index: 4;
-    box-shadow:1px 1px 4px rgba(0, 0,0, 0.1) ;}
-    posion
+    /* z-index: 4; */
+    box-shadow:1px 1px 4px rgba(0, 0,0, 0.1) ;
+    position: absolute;;
+    top:10%;
+    right: 10%;
+   padding: 10px;
+    text-align: center;
+
+}
+
     label {
         /* Uniform size & alignment */
+        position: relative;
         display: inline-block;
-        width: 150px;
+        width: 50px;
+      padding: 5px;
+     
     }
+    input{
+        border: none;
+    }
+   
 
     /* .sign-in form ground: transparent;
     } */
@@ -42,7 +55,5 @@
         margin: 10px;
         
     }
-    .sign-up:click{
-
-    }
+    
     
