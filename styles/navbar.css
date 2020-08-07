@@ -32,11 +32,11 @@ header nav ul {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #AC271D; /*set for later chang*/
+    background-color: #AC271D; /*set for later change*/
 }
 
 .header nav ul a{
-   display:block; /*get the apelity to have margins nd pading and can click any where in the row*/
+   display:block; /*get the aplity to have margins and padding and can click any where in the row*/
    padding:20px ;
    outline: 1px solid  #811D16;
    border-right: 1px solid #811D16;
@@ -59,9 +59,9 @@ header nav ul {
 }
 
 header nav .menu{
-    clear: both;
+    /* clear: both; */
     max-height: 0;
-    transition:  max-height .2s ease-out ;/*clooaps animation*/
+    transition:  max-height .2s ease-out ;/*collaps animation*/
 }
 
 .header nav .menu-icon{
@@ -81,6 +81,7 @@ header nav .menu{
     animation: background .2s  ease-out;
 }
 
+/* this folowing animation is for makeing anther line of icon */
 .header nav .menu-icon .nav-icon:before{
     background-color:wheat ;
     content: "";
@@ -91,6 +92,7 @@ header nav .menu{
     transition: all .2s ease-out;
     top: 5px;
 }
+
 .header nav .menu-icon .nav-icon:after{
     background-color:wheat ;
     content: "";
@@ -101,11 +103,12 @@ header nav .menu{
     transition: all .2s ease-out;
     top: -5px;
 }
-
+ 
+/* for wider screen */
 .header nav .menu-btn{
     display: none;
 }
-
+/* expand highet when clicking */
 .header nav .menu-btn:checked ~ .menu{
     max-height: 240px;
 }
@@ -129,7 +132,7 @@ header nav .menu{
         padding: 20px 30px;
     }
     .header nav .menu{
-        clear: none;
+        /* clear: none; */
         float: left;
         max-height: none;
     }
