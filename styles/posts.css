@@ -1,0 +1,14 @@
+.post-img {
+    width: 80%;
+    }
+  article {
+        position: absolute;
+        margin: 10%  ;
+        padding: 1% 10%;
+        font-size: 80%;
+      color:  #811D16;
+       
+    }
+    summary:focus{
+        outline: none;
+    }
